@@ -1,0 +1,84 @@
+/* FOREIGNER REPORT DTLYING */
+
+.foreigner_report_container{
+	background-color: white;
+	width: 60%;
+	height: 350px;
+	padding-bottom: 20px;
+}
+
+h4 {
+   padding: 30px 0px 20px 30px; 
+   font-size: 22px;
+   font-weight: bold;
+   color:blue;
+}
+
+form input[type=date], label{
+	padding: 10px 0px 10px 20px;
+	margin: 10px;
+	width: 65%;
+}
+
+.date{
+	padding: 10px;
+}
+
+button{
+	background-color: blue;
+	color: white;
+	margin: 20px 0px 10px 20px;
+	padding: 10px;
+	border-radius: 15%;
+	border-style: none;
+}
+
+button:hover{
+	color: blue;
+	background-color: black;
+	cursor: pointer;
+}
+
+/* NORMAL REPORT DETAILS */
+
+.foreigner-report-details-container{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	margin: 10px 10px;
+}
+
+h4 .header-title {
+   padding-left:80px ; 
+   font-size: 22px;
+   font-weight: bold;
+   color:blue;
+}
+
+h5.between-dates{
+	padding-left: 110px;
+	margin:20px 0px 20px 20px;
+	color: blue;
+}
+
+table .table {
+	padding: 20px;
+	border-collapse: collapse;
+
+}
+table{
+	margin-left: 10%;
+	border-collapse: collapse;
+
+}
+
+.thead th{
+	padding: 25px;
+	background-color: lightgray;
+	margin-top: 25px;
+}
+
+.tbody td{
+	font-size: 15px;
+
+}

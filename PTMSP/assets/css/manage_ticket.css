@@ -1,0 +1,71 @@
+
+.Manage-ticket-container{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	margin: 10px 0px;
+
+}
+.Management h4 {
+	padding:30px 0px 20px 30px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+table {
+    padding: 5px;
+    padding-left: 10px;
+    margin: 10px 0px 0px 30px;
+
+}
+table th{
+	padding: 7PX;
+	background-color: lightgrey;
+	font-size: 18px;
+}
+tbody .tbody{
+	padding: 7px;
+	color: black;
+}
+
+
+/* EDIT-TICKET STYLING */
+.Manage-ticket-container2{
+	background-color: white;
+	width: 50%;
+	height: 330px;
+	padding-bottom: 20px;
+
+}
+.header-title{
+	padding: 30px 0px 20px 30px; 
+	font-size: 22px;
+	font-weight: bold;
+}
+form input[type=text]{
+	padding: 10px;
+	margin: 10px;
+	width: 60%;
+}
+label{
+	margin-bottom: 5px;
+	margin-left: 15px;
+
+}
+.t-type, .t-cost{
+	margin: 10px 0px 10px 10px;
+}
+.button{
+	background-color: blue;
+	color: white;
+	margin: 20px 0px 10px 20px;
+	padding: 10px;
+	border-style: none;
+}
+
+button:hover{
+	color: blue;
+	background-color: black;
+	border-radius: 15%;
+	cursor: pointer;
+}

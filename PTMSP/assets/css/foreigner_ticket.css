@@ -1,0 +1,68 @@
+
+/* add_foreigner_ticket STYLE */
+.add_foreigner_ticket-container{
+    background-color: white;
+	width: 50%;
+	height: 330px;
+	padding-bottom: 20px;
+}
+
+h4 {
+padding: 30px 0px 20px 30px; 
+	font-size: 22px;
+	font-weight: bold;
+}
+
+form input[type=text], label{
+	padding: 10px;
+	margin: 10px;
+	width: 65%;
+}
+
+#normal_ticket,#adult_ticket{
+	margin-left:15px;
+}
+
+.button{
+	background-color: blue;
+	color: white;
+	margin: 35px 0px 10px 20px;
+	padding: 10px;
+	border-radius: 15%;
+	border-style: none;
+}
+
+button:hover{
+	color: blue;
+	background-color: black;
+	cursor: pointer;
+}
+
+/* MANAGE FOREIGNER TICKET */
+.Manage-ticket-container{
+    background-color: white;
+	width: 80%;
+	height: 100%;
+	padding-bottom: 20px;
+}
+
+#Manage-ticket{
+	margin-left:70px;
+}
+
+/* VIEW FOREIGNER TICKET STYLING */
+
+ h5{
+	font-size: 15px;
+	padding-left: 25px;
+	color: black;
+}
+
+.table-head{
+	margin: 20px 0px 0px 25px;
+}
+table th{
+	padding: 7PX;
+	background-color: lightgrey;
+	font-size: 15px;
+

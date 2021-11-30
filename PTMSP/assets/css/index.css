@@ -1,0 +1,203 @@
+/* HOME PAGE STYLE */
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d6eef133;
+}
+
+#container {
+    background-color: black;
+    widows: 80%;
+    overflow: hidden;
+    border-bottom: blue solid 7px;
+}
+
+.main_header {
+    color: white;
+    min-height: 70px;
+    word-spacing: 3px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.product {
+    color: blue;
+    font-weight: 300px;
+}
+
+li {
+    display: inline-block;
+    float: left;
+    color: blue;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: blue;
+    font-weight: 300px;
+}
+
+a:hover {
+    color: rgb(241, 22, 234);
+    cursor: pointer;
+    transition: 1s;
+}
+
+a:visited {
+    color: blue;
+}
+
+.active {
+    color: white;
+}
+/*background image*/
+
+.welcome {
+    font-family: 'Montserrat', sans-serif;
+    /*background-image:url(assets/image/bus.jpg);*/
+    color: white;
+    font-size: 25px;
+    background-size: cover;
+    height: 510px;
+    background-position-y: center;
+}
+
+.welcome marquee h2 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 3.5rem;
+    font-family: cursive;
+    text-align: center;
+}
+    
+
+}
+
+.all-section{
+    width: 100%;
+}
+
+.section {
+    float: left;
+    width: 31.333%;
+    box-sizing: border-box;
+    margin: 15px;
+    margin-bottom: 10px;
+    padding: auto;
+    color: blue;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 1000;
+}
+/*login form */
+
+.all-form {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.main_footer {
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    text-align: center;
+    padding-top: 7px;
+    margin-top: 15%;
+    border-top: black solid 7px;
+    font-family: Montserrat;
+}
+ /* ADD ADMIN PAGE STYLE* and LOGIN */
+
+
+ div.container-form1 {
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 25%;
+    border: 5px blue solid;
+    width: 50%;
+}
+
+
+div.container-form {
+    background-color: white;
+    margin-top: 110px;
+    margin-left: 25%;
+    border: 5px blue solid;
+    width: 50%;
+}
+
+.form-header {
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    padding-left: 0px;
+    font-size: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+.form-name input,
+input[type=password],
+select,
+button {
+    width: 90%;
+    margin: 10px 10px;
+    padding: 10px;
+    box-shadow: grey;
+}
+
+label{
+    margin-left: 5px;
+}
+
+div .admin_panel a{
+    float: right;
+    color: black;
+    font-weight: bold;
+    padding-right: 60px;
+
+}
+
+div .admin_panel a:hover{
+    color: blue;
+    cursor:pointer;
+    transition: 1s;
+}
+
+.forgot a{
+    float: right;
+    font-size: 14px;
+    color: blue;
+}
+
+a:hover{
+    color: pink;
+
+}
+button {
+    background-color: lightblue;
+    padding: 15px;
+    color: black;
+    border-radius: 50%;
+    border-style: none;
+    font-size: 20px;
+}
+
+button:hover {
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
